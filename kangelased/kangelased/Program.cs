@@ -42,7 +42,11 @@ namespace kangelased
             }
 
 
+
             Console.ReadLine();
+
+            Console.WriteLine("Hello world!");
+
 
         }
     }
