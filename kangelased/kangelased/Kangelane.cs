@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace kangelased
 {
-    class Kangelane
+    public class Kangelane
     {
         private string _Nimi;
         private string _Asukoht;
@@ -20,7 +20,7 @@ namespace kangelased
         public string Nimi { get => _Nimi; set => _Nimi = value; }
         public string Asukoht { get => _Asukoht; set => _Asukoht = value; }
 
-        public int Päästa(int Ohustatuid)
+        public virtual int Päästa(int Ohustatuid)
         {
             return (int)Math.Round(Ohustatuid * 0.95, 0);
         }
