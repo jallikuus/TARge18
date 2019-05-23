@@ -33,10 +33,15 @@ namespace kangelased
 
         static void Main(string[] args)
         {
+            LaeKangelased("Kangelased.txt");
+            foreach (Kangelane kangelane in kangelased)
+            {
+                Console.WriteLine(kangelane);
+            }
 
 
+            Console.ReadLine();
 
-           
         }
     }
 }
