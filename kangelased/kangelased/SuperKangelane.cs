@@ -12,7 +12,7 @@ namespace kangelased
 
         public SuperKangelane(string Nimi, string Asukoht) : base(Nimi, Asukoht)
         {
-            _Osavus = SingleRandom.Instance.Next(1, 60)/10.0; // arvud 1 kuni 5
+            _Osavus = SingleRandom.Instance.Next(1, 51)/10.0; // arvud 1 kuni 5
         }
 
         public override int Päästa(int Ohustatuid)
